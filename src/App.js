@@ -1,10 +1,17 @@
 import './App.css';
 import Landing from './pages/Landing';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <Landing></Landing>
+      <BrowserRouter>
+        <Switch>
+          <Route path="/hablu_programmer">
+            <Landing></Landing>
+          </Route>
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }
