@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Switch>
-          <Route path="/hablu_programmer" component={Landing}/>
+          <Route path="/" component={Landing}/>
         </Switch>
       </BrowserRouter>
     </div>
