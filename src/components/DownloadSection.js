@@ -17,7 +17,7 @@ function DownloadSection(props) {
                         <h1 className="title">Download and <span>Start Coding!</span></h1>
                         <p className="text">Are you worry about your pc configuration? Tensed about how to code in your old pc. Don’t worry, we just build an online code editor to reduce your such kind of problem. </p>
                         <ul>
-                            <li><a href="" className="app-store">
+                            <li><a href="/codeEditor" className="app-store">
                                 <img src={process.env.PUBLIC_URL + "/assets/img/download/app-store.png"} alt=""></img>
                             </a></li>
                             <li><a href="" className="play-store">

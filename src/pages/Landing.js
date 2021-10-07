@@ -124,7 +124,7 @@ function Landing(props) {
                             <h1 className="header-title wow fadeInLeftBig" data-wow-duration="3s" data-wow-delay="0.2s"><span>Run Your Code </span>With Virtual Code Runner</h1>
                             <p className="text wow fadeInLeftBig" data-wow-duration="3s" data-wow-delay="0.4s">Are you worry about your pc configuration? Tensed about how to code in your old pc. Don’t worry, we just build an online code editor to reduce your such kind of problem.</p>
                             <ul className="d-flex">
-                            <li><a href="" className="bubbly-button wow fadeInLeftBig" data-wow-duration="3s" data-wow-delay="0.8s">Run Code</a></li>
+                            <li><a href="/codeEditor" className="bubbly-button wow fadeInLeftBig" data-wow-duration="3s" data-wow-delay="0.8s">Run Code</a></li>
                             <li><a href="https://youtu.be/sNITYUx8yGU" className="header-video venobox wow fadeInLeftBig"
                                 data-autoplay="true" data-vbtype="video" data-wow-duration="3s" data-wow-delay="1.2s"><i
                                     className="fas fa-play"></i></a></li>
